@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>JS Meetup</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-list-header>
+      Today's Topic
+    </ion-list-header>
+    <a ion-item (click)="openModal({charNum: 0})">
+      Perf Metrics
+    </a>
+    <a ion-item (click)="openModal({charNum: 1})">
+      Ionic
+    </a>
+  </ion-list>
+
+</ion-content>
